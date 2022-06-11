@@ -1,0 +1,6 @@
+tomek_zielonka@ubuntu16:~$ curl -XDELETE http://localhost:8098/buckets/s25887/keys/Wojciech -iHTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Fri, 10 Jun 2022 00:22:59 GMT
+Content-Type: apllication/json
+Content-Length: 0

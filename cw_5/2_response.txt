@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8ypz/fsYezrWFCCUy5rEynOAQv8OXBQA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s25887>; rel="up"
+Last-Modified: Fri, 10 Jun 2022 00:14:00 GMT
+ETag: "55925KtzROPxsnE3tq4qLp"
+Date: Fri, 10 Jun 2022 00:15:42 GMT
+Content-Type: apllication/json
+Content-Length: 70
+
+{"imie":"Zuzanna", "wiek":25, "zawod":"sekretarka", "doswiadczenie":5}

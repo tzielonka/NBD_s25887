@@ -1,0 +1,7 @@
+tomek_zielonka@ubuntu16:~$ curl -XPUT -H "Content-Type: apllication/json" -d '{"imie":"Jan", "wiek":20, "zawod":"malarz", "doswiadczenie":2}' http://localhost:8098/buckets/s25887/keys/Jan -i
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Fri, 10 Jun 2022 00:09:29 GMT
+Content-Type: apllication/json
+Content-Length: 0
