@@ -1,0 +1,14 @@
+1. curl -XPUT -H "Content-Type: apllication/json" -d '{"imie":"Jan", "wiek":20, "zawod":"malarz", "doswiadczenie":2}' http://localhost:8098/buckets/s25887/keys/Jan -i
+1. curl -XPUT -H "Content-Type: apllication/json" -d '{"imie":"Maria", "wiek":50, "zawod":"pielegniarka", "doswiadczenie":25}' http://localhost:8098/buckets/s25887/keys/Maria -i
+1. curl -XPUT -H "Content-Type: apllication/json" -d '{"imie":"Zuzanna", "wiek":25, "zawod":"sekretarka", "doswiadczenie":5}' http://localhost:8098/buckets/s25887/keys/Zuzanna -i
+1. curl -XPUT -H "Content-Type: apllication/json" -d '{"imie":"Jerzy", "wiek":43, "zawod":"prawnik", "doswiadczenie":15}' http://localhost:8098/buckets/s25887/keys/Jerzy -i
+1. curl -XPUT -H "Content-Type: apllication/json" -d '{"imie":"Wojciech", "wiek":62, "zawod":"nauczyciel", "doswiadczenie":30}' http://localhost:8098/buckets/s25887/keys/Wojciech -i
+2. curl -i http://localhost:8098/buckets/s25887/keys/Zuzanna
+3. curl -XPUT -H "Content-Type: apllication/json" -d '{"imie":"Wojciech", "wiek":62, "zawod":"nauczyciel", "doswiadczenie":30, "zarobki":3500}' http://localhost:8098/buckets/s25887/keys/Wojciech -i
+4. curl -XPUT -H "Content-Type: apllication/json" -d '{"imie":"Jan", "wiek":20, "zawod":"malarz"}' http://localhost:8098/buckets/s25887/keys/Jan -i
+5. curl -XPUT -H "Content-Type: apllication/json" -d '{"imie":"Maria", "wiek":50, "zawod":"pielegniarka", "doswiadczenie":20}' http://localhost:8098/buckets/s25887/keys/Maria -i
+6. curl -XDELETE http://localhost:8098/buckets/s25887/keys/Wojciech -i
+7. curl http://localhost:8098/buckets/s25887/keys/Wojciech -i
+8. curl -XPOST -H "Content-Type: apllication/json" -d '{"imie":"Tomasz"}' http://localhost:8098/buckets/s25887/keys -i
+9. curl http://localhost:8098/buckets/s25887/keys/SM8b9iGDOv5WNLmPQoTio1vhoLx -i
+10. curl -XDELETE http://localhost:8098/buckets/s25887/keys/SM8b9iGDOv5WNLmPQoTio1vhoLx -i
