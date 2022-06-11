@@ -1,0 +1,5 @@
+tomek_zielonka@ubuntu16:~/riak-python-client/riak$ python cw6_TZ_skrypt.py
+('Data from auto1 key:', {u'Marka auta': u'Chrysler', u'Rocznik': 2021, u'Pojemnosc silnika': 3.6, u'Numer rejestracyjny': u'WB12345'})
+('Data from auto1 key after modification: ', {u'Marka auta': u'Chrysler', u'Numer rejestracyjny': u'LU25887', u'Pojemnosc silnika': 3.6, u'Rocznik': 2021})
+('Try to get data after delete auto1: ', None)
+tomek_zielonka@ubuntu16:~/riak-python-client/riak$ 
