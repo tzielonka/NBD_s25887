@@ -1,0 +1,371 @@
+MongoDB shell version v4.2.20
+connecting to: mongodb://127.0.0.1:27017/nbd?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("9b6f2b6d-a157-41b5-a15b-f42da423fc15") }
+MongoDB server version: 4.2.20
+[
+	{
+		"_id" : "DOP",
+		"sum" : NumberDecimal("20674.74"),
+		"average" : NumberDecimal("5168.685")
+	},
+	{
+		"_id" : "ILS",
+		"sum" : NumberDecimal("16295.49"),
+		"average" : NumberDecimal("5431.83")
+	},
+	{
+		"_id" : "BOB",
+		"sum" : NumberDecimal("5263.3"),
+		"average" : NumberDecimal("5263.3")
+	},
+	{
+		"_id" : "CAD",
+		"sum" : NumberDecimal("58375.60"),
+		"average" : NumberDecimal("5306.872727272727272727272727272727")
+	},
+	{
+		"_id" : "USD",
+		"sum" : NumberDecimal("74680.98"),
+		"average" : NumberDecimal("4978.732")
+	},
+	{
+		"_id" : "HNL",
+		"sum" : NumberDecimal("16514.59"),
+		"average" : NumberDecimal("5504.863333333333333333333333333333")
+	},
+	{
+		"_id" : "GTQ",
+		"sum" : NumberDecimal("5806.3"),
+		"average" : NumberDecimal("5806.3")
+	},
+	{
+		"_id" : "SEK",
+		"sum" : NumberDecimal("70840.19"),
+		"average" : NumberDecimal("5060.013571428571428571428571428571")
+	},
+	{
+		"_id" : "VEF",
+		"sum" : NumberDecimal("8333.28"),
+		"average" : NumberDecimal("4166.64")
+	},
+	{
+		"_id" : "MXN",
+		"sum" : NumberDecimal("50229.00"),
+		"average" : NumberDecimal("5022.90")
+	},
+	{
+		"_id" : "BYR",
+		"sum" : NumberDecimal("5095.79"),
+		"average" : NumberDecimal("5095.79")
+	},
+	{
+		"_id" : "GBP",
+		"sum" : NumberDecimal("6149.19"),
+		"average" : NumberDecimal("6149.19")
+	},
+	{
+		"_id" : "ISK",
+		"sum" : NumberDecimal("4316.41"),
+		"average" : NumberDecimal("4316.41")
+	},
+	{
+		"_id" : "ARS",
+		"sum" : NumberDecimal("23242.00"),
+		"average" : NumberDecimal("4648.40")
+	},
+	{
+		"_id" : "RUB",
+		"sum" : NumberDecimal("119749.15"),
+		"average" : NumberDecimal("4989.547916666666666666666666666667")
+	},
+	{
+		"_id" : "KYD",
+		"sum" : NumberDecimal("3760.89"),
+		"average" : NumberDecimal("3760.89")
+	},
+	{
+		"_id" : "SRD",
+		"sum" : NumberDecimal("5286.68"),
+		"average" : NumberDecimal("5286.68")
+	},
+	{
+		"_id" : "XPF",
+		"sum" : NumberDecimal("4759.07"),
+		"average" : NumberDecimal("4759.07")
+	},
+	{
+		"_id" : "UAH",
+		"sum" : NumberDecimal("40471.84"),
+		"average" : NumberDecimal("5058.98")
+	},
+	{
+		"_id" : "XAF",
+		"sum" : NumberDecimal("14094.66"),
+		"average" : NumberDecimal("4698.22")
+	},
+	{
+		"_id" : "ALL",
+		"sum" : NumberDecimal("3325.48"),
+		"average" : NumberDecimal("3325.48")
+	},
+	{
+		"_id" : "MGA",
+		"sum" : NumberDecimal("14560.99"),
+		"average" : NumberDecimal("4853.663333333333333333333333333333")
+	},
+	{
+		"_id" : "RSD",
+		"sum" : NumberDecimal("4276.56"),
+		"average" : NumberDecimal("4276.56")
+	},
+	{
+		"_id" : "ZAR",
+		"sum" : NumberDecimal("11790.92"),
+		"average" : NumberDecimal("3930.306666666666666666666666666667")
+	},
+	{
+		"_id" : "CLP",
+		"sum" : NumberDecimal("21008.95"),
+		"average" : NumberDecimal("5252.2375")
+	},
+	{
+		"_id" : "CUP",
+		"sum" : NumberDecimal("15017.34"),
+		"average" : NumberDecimal("5005.78")
+	},
+	{
+		"_id" : "LYD",
+		"sum" : NumberDecimal("8764.99"),
+		"average" : NumberDecimal("4382.495")
+	},
+	{
+		"_id" : "XOF",
+		"sum" : NumberDecimal("17882.05"),
+		"average" : NumberDecimal("5960.683333333333333333333333333333")
+	},
+	{
+		"_id" : "IQD",
+		"sum" : NumberDecimal("4269.39"),
+		"average" : NumberDecimal("4269.39")
+	},
+	{
+		"_id" : "NZD",
+		"sum" : NumberDecimal("5328.46"),
+		"average" : NumberDecimal("5328.46")
+	},
+	{
+		"_id" : "TJS",
+		"sum" : NumberDecimal("4087.71"),
+		"average" : NumberDecimal("4087.71")
+	},
+	{
+		"_id" : "PYG",
+		"sum" : NumberDecimal("4874.69"),
+		"average" : NumberDecimal("4874.69")
+	},
+	{
+		"_id" : "NOK",
+		"sum" : NumberDecimal("4773.66"),
+		"average" : NumberDecimal("4773.66")
+	},
+	{
+		"_id" : "IDR",
+		"sum" : NumberDecimal("323922.59"),
+		"average" : NumberDecimal("4907.918030303030303030303030303030")
+	},
+	{
+		"_id" : "TZS",
+		"sum" : NumberDecimal("7052.37"),
+		"average" : NumberDecimal("3526.185")
+	},
+	{
+		"_id" : "UZS",
+		"sum" : NumberDecimal("3573.03"),
+		"average" : NumberDecimal("3573.03")
+	},
+	{
+		"_id" : "COP",
+		"sum" : NumberDecimal("19746.73"),
+		"average" : NumberDecimal("4936.6825")
+	},
+	{
+		"_id" : "MKD",
+		"sum" : NumberDecimal("3835.05"),
+		"average" : NumberDecimal("3835.05")
+	},
+	{
+		"_id" : "PLN",
+		"sum" : NumberDecimal("90770.78"),
+		"average" : NumberDecimal("5042.821111111111111111111111111111")
+	},
+	{
+		"_id" : "NGN",
+		"sum" : NumberDecimal("24946.23"),
+		"average" : NumberDecimal("4157.705")
+	},
+	{
+		"_id" : "MAD",
+		"sum" : NumberDecimal("3818.85"),
+		"average" : NumberDecimal("3818.85")
+	},
+	{
+		"_id" : "YER",
+		"sum" : NumberDecimal("13712.50"),
+		"average" : NumberDecimal("4570.833333333333333333333333333333")
+	},
+	{
+		"_id" : "BGN",
+		"sum" : NumberDecimal("21200.88"),
+		"average" : NumberDecimal("5300.22")
+	},
+	{
+		"_id" : "VUV",
+		"sum" : NumberDecimal("6418.27"),
+		"average" : NumberDecimal("6418.27")
+	},
+	{
+		"_id" : "CZK",
+		"sum" : NumberDecimal("37156.42"),
+		"average" : NumberDecimal("4644.5525")
+	},
+	{
+		"_id" : "EGP",
+		"sum" : NumberDecimal("5579.3"),
+		"average" : NumberDecimal("5579.3")
+	},
+	{
+		"_id" : "BRL",
+		"sum" : NumberDecimal("49632.02"),
+		"average" : NumberDecimal("4512.001818181818181818181818181818")
+	},
+	{
+		"_id" : "EUR",
+		"sum" : NumberDecimal("245091.47"),
+		"average" : NumberDecimal("4901.8294")
+	},
+	{
+		"_id" : "ETB",
+		"sum" : NumberDecimal("5436.11"),
+		"average" : NumberDecimal("5436.11")
+	},
+	{
+		"_id" : "BWP",
+		"sum" : NumberDecimal("4076.29"),
+		"average" : NumberDecimal("4076.29")
+	},
+	{
+		"_id" : "MNT",
+		"sum" : NumberDecimal("21715.61"),
+		"average" : NumberDecimal("5428.9025")
+	},
+	{
+		"_id" : "CDF",
+		"sum" : NumberDecimal("12228.8"),
+		"average" : NumberDecimal("6114.4")
+	},
+	{
+		"_id" : "JPY",
+		"sum" : NumberDecimal("60944.74"),
+		"average" : NumberDecimal("5078.728333333333333333333333333333")
+	},
+	{
+		"_id" : "MYR",
+		"sum" : NumberDecimal("4781.12"),
+		"average" : NumberDecimal("4781.12")
+	},
+	{
+		"_id" : "PHP",
+		"sum" : NumberDecimal("118606.28"),
+		"average" : NumberDecimal("4941.928333333333333333333333333333")
+	},
+	{
+		"_id" : "NIO",
+		"sum" : NumberDecimal("9971.28"),
+		"average" : NumberDecimal("4985.64")
+	},
+	{
+		"_id" : "ZMW",
+		"sum" : NumberDecimal("5569.56"),
+		"average" : NumberDecimal("5569.56")
+	},
+	{
+		"_id" : "AFN",
+		"sum" : NumberDecimal("16755.49"),
+		"average" : NumberDecimal("5585.163333333333333333333333333333")
+	},
+	{
+		"_id" : "AMD",
+		"sum" : NumberDecimal("24609.33"),
+		"average" : NumberDecimal("4921.866")
+	},
+	{
+		"_id" : "THB",
+		"sum" : NumberDecimal("23021.96"),
+		"average" : NumberDecimal("4604.392")
+	},
+	{
+		"_id" : "KZT",
+		"sum" : NumberDecimal("3788.95"),
+		"average" : NumberDecimal("3788.95")
+	},
+	{
+		"_id" : "MWK",
+		"sum" : NumberDecimal("3574.42"),
+		"average" : NumberDecimal("3574.42")
+	},
+	{
+		"_id" : "CNY",
+		"sum" : NumberDecimal("470700.38"),
+		"average" : NumberDecimal("4954.740842105263157894736842105263")
+	},
+	{
+		"_id" : "NPR",
+		"sum" : NumberDecimal("5792.26"),
+		"average" : NumberDecimal("5792.26")
+	},
+	{
+		"_id" : "RWF",
+		"sum" : NumberDecimal("4632.88"),
+		"average" : NumberDecimal("4632.88")
+	},
+	{
+		"_id" : "KRW",
+		"sum" : NumberDecimal("13379.82"),
+		"average" : NumberDecimal("6689.91")
+	},
+	{
+		"_id" : "MMK",
+		"sum" : NumberDecimal("4629.42"),
+		"average" : NumberDecimal("4629.42")
+	},
+	{
+		"_id" : "VND",
+		"sum" : NumberDecimal("36160.26"),
+		"average" : NumberDecimal("4520.0325")
+	},
+	{
+		"_id" : "PEN",
+		"sum" : NumberDecimal("18644.94"),
+		"average" : NumberDecimal("4661.235")
+	},
+	{
+		"_id" : "PKR",
+		"sum" : NumberDecimal("18938.00"),
+		"average" : NumberDecimal("4734.50")
+	},
+	{
+		"_id" : "IRR",
+		"sum" : NumberDecimal("26504.24"),
+		"average" : NumberDecimal("4417.373333333333333333333333333333")
+	},
+	{
+		"_id" : "HRK",
+		"sum" : NumberDecimal("24354.82"),
+		"average" : NumberDecimal("4870.964")
+	},
+	{
+		"_id" : "ZWL",
+		"sum" : NumberDecimal("5792.17"),
+		"average" : NumberDecimal("5792.17")
+	}
+]
