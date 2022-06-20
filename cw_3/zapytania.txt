@@ -1,0 +1,24 @@
+#Zad1
+MATCH (films:Movie) RETURN films; 
+
+#Zad2
+MATCH (actor:Person)-[:ACTED_IN]-(films:Movie) WHERE actor.name = 'Hugo Weaving' RETURN actor,films; 
+
+#Zad3
+MATCH (actor:Person)-[:ACTED_IN]-(films:Movie)-[:DIRECTED]-(directors:Person) WHERE actor.name = 'Hugo Weaving' RETURN DISTINCT directors; 
+
+#Zad4
+MATCH (actor:Person)-[:ACTED_IN]-(films:Movie)-[:ACTED_IN]-(actors:Person) WHERE actor.name = 'Hugo Weaving' RETURN DISTINCT actors; 
+
+#Zad5
+MATCH (films:Movie)-[:ACTED_IN]-(actors:Person)-[:ACTED_IN]-(film:Movie) WHERE film.title CONTAINS 'Matrix' RETURN DISTINCT films; 
+
+#Zad6
+MATCH (actors:Person)-[:ACTED_IN]-(films:Movie) RETURN actors, COUNT(films) as num_of_roles; 
+
+#Zad7
+MATCH (scriptwriter:Person)-[:WROTE]-(films:Movie)-[:DIRECTED]-(director:Person) WHERE scriptwriter = director RETURN scriptwriter, films;
+
+#Zad8
+MATCH (actor1:Person)-[:ACTED_IN]-(films:Movie)<-[:ACTED_IN]-(actor2:Person) WHERE actor1.name = 'Hugo Weaving' AND actor2.name = 'Keanu Reeves' RETURN films; 
+
