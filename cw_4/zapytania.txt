@@ -1,0 +1,24 @@
+#Zad1
+MATCH (start:town {name: "Darjeeling"}),(target:peak {name:"Sandakphu"})
+MATCH path = allShortestPaths((start)-[*]->(target)) return path
+
+#Zad2
+MATCH (start:town {name: "Darjeeling"}),(target:peak {name:"Sandakphu"})
+MATCH path = allShortestPaths((start)-[*]->(target)) 
+WHERE ALL(r IN relationships(path) WHERE r.winter = 'true') RETURN path
+
+#Zad3
+MATCH (start:town {name: "Darjeeling"}),(target:peak {name:"Sandakphu"})
+MATCH path = (start)-[*]->(target)
+WITH path, reduce(d=0, r IN relationships(path) | d+r.distance) as total_distance
+RETURN path, total_distance ORDER BY total_distance
+
+#Zad4 (brak wynikow)
+MATCH path = (start:town {name: "Darjeeling"})-[r:twowheeler]->(target)
+WHERE ALL (r IN relationships(path) WHERE r.summer = "true")
+RETURN target
+
+#Zad5
+MATCH (f:Flight)-[:ORIGIN]->(a:Airport)
+RETURN a, count(f)
+ORDER BY count(f)
